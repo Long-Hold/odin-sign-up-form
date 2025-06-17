@@ -30,6 +30,41 @@
                 You <em>know</em> you want to.
             </h1>
         </section>
+
+        <!-- Contains the interactable elements of the form for user to submit data -->
+        <section class="form-fields">
+            <h1>Take the leap!</h1>
+
+            <form action="post">
+                <label for="first-name">First Name
+                    <input 
+                    type="text" 
+                    id="first-name"
+                    name="first-name"
+                    autocomplete="given-name"
+                    required>
+                </label>
+
+                <!-- Last Name input is not required as not everyone has a last name -->
+                <label for="last-name" class="optional">Last Name
+                    <input 
+                    type="text" 
+                    id="last-name" 
+                    name="last-name"
+                    autocomplete="family-name">
+                    <span><em>Optional</span>
+                </label>
+
+                <label for="email">Email
+                    <input 
+                    type="email" 
+                    id="email" 
+                    name="email"
+                    autocomplete="email"
+                    required>
+                </label>
+            </form>
+        </section>
     </section>
 </body>
 </html>
