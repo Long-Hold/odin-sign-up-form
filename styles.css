@@ -91,6 +91,12 @@ textarea:not([rows]) {
   scroll-margin-block: 5ex;
 }
 
+/* Reset headers to remove container resizing */
+h1, h2, h3, h4, h5, h6 {
+    font-size: 2em;  /* Override browser default sizing */
+    font-weight: bold;  /* Ensure consistent weight */
+}
+
 /* Set default font for the form */
 html {
     font-family: 'manroperegular', Arial, Helvetica, sans-serif;
