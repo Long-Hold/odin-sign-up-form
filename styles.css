@@ -105,9 +105,9 @@ html {
 
 /* Web page stylization */
 
-html {
+body {
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: row wrap;
 }
 
 /* Card styles */
@@ -127,4 +127,12 @@ html {
 .portrait-card-container > div {
   background-color: rgba(239, 235, 235, 0.781);
   width: 100%;
+}
+
+/* Form section styling */
+
+.form-section {
+  display: flex;
+  flex-flow: column wrap;
+  flex: 1;
 }
