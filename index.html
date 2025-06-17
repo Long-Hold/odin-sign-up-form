@@ -32,6 +32,7 @@
         </section>
 
         <!-- Contains the interactable elements of the form for user to submit data -->
+        <!-- span elements will by stylized to signify a required field -->
         <section class="form-fields">
             <h1>Take the leap!</h1>
 
@@ -43,6 +44,7 @@
                     name="first-name"
                     autocomplete="given-name"
                     required>
+                    <span></span>
                 </label>
 
                 <!-- Last Name input is not required as not everyone has a last name -->
@@ -52,7 +54,6 @@
                     id="last-name" 
                     name="last-name"
                     autocomplete="family-name">
-                    <span><em>Optional</span>
                 </label>
 
                 <label for="email">Email
@@ -62,6 +63,15 @@
                     name="email"
                     autocomplete="email"
                     required>
+                    <span></span>
+                </label>
+
+                <label for="phone-number">Phone Number
+                    <input 
+                    type="tel" 
+                    id="phone-number"
+                    name="phone-number"
+                    autocomplete="tel">
                 </label>
             </form>
         </section>
