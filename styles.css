@@ -113,6 +113,10 @@ html {
 /* Card styles */
 
 .portrait-card-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
   position: relative;
   height: 100vh;
   width: 40vw;
@@ -125,8 +129,6 @@ html {
 
 .portrait-card-container .logo-container {
   position: absolute;
-  top: calc(100% / 2);
-  right: calc(40% / 2);
   background-color: rgba(239, 235, 235, 0.781);
-  box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.819);
+  width: 100%;
 }
