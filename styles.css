@@ -21,6 +21,8 @@
 *,
 *::before,
 *::after {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -135,4 +137,6 @@ body {
   display: flex;
   flex-flow: column wrap;
   flex: 1;
+  justify-content: space-evenly;
+  padding: 2rem;
 }
