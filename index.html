@@ -36,63 +36,67 @@
         <section class="form-fields">
             <h1>Take the leap!</h1>
 
-            <form action="post">
-                <label for="first-name">First Name
-                    <input 
-                    type="text" 
-                    id="first-name"
-                    name="first-name"
-                    autocomplete="given-name"
-                    required>
-                    <span></span>
-                </label>
+            <form action="/index.html" method="POST">
+                <div class="input-container">
+                    <label for="first-name">First Name
+                        <input 
+                        type="text" 
+                        id="first-name"
+                        name="first-name"
+                        autocomplete="given-name"
+                        required>
+                        <span></span>
+                    </label>
 
-                <!-- Last Name input is not required as not everyone has a last name -->
-                <label for="last-name" class="optional">Last Name
-                    <input 
-                    type="text" 
-                    id="last-name" 
-                    name="last-name"
-                    autocomplete="family-name">
-                </label>
+                    <!-- Last Name input is not required as not everyone has a last name -->
+                    <label for="last-name" class="optional">Last Name
+                        <input 
+                        type="text" 
+                        id="last-name" 
+                        name="last-name"
+                        autocomplete="family-name">
+                    </label>
 
-                <label for="email">Email
-                    <input 
-                    type="email" 
-                    id="email" 
-                    name="email"
-                    autocomplete="email"
-                    required>
-                    <span></span>
-                </label>
+                    <label for="email">Email
+                        <input 
+                        type="email" 
+                        id="email" 
+                        name="email"
+                        autocomplete="email"
+                        required>
+                        <span></span>
+                    </label>
 
-                <label for="phone-number">Phone Number
-                    <input 
-                    type="tel" 
-                    id="phone-number"
-                    name="phone-number"
-                    autocomplete="tel">
-                </label>
+                    <label for="phone-number">Phone Number
+                        <input 
+                        type="tel" 
+                        id="phone-number"
+                        name="phone-number"
+                        autocomplete="tel">
+                    </label>
 
-                <label for="password">Password
-                    <input 
-                    type="password"
-                    id="password"
-                    name="password"
-                    autocomplete="new-password"
-                    required>
-                    <span></span>
-                </label>
+                    <label for="password">Password
+                        <input 
+                        type="password"
+                        id="password"
+                        name="password"
+                        autocomplete="new-password"
+                        required>
+                        <span></span>
+                    </label>
 
-                <label for="confirm-password">Confirm Password
-                    <input 
-                    type="password"
-                    id="confirm-password"
-                    name="confirm-password"
-                    autocomplete="current-password"
-                    required>
-                    <span></span>
-                </label>
+                    <label for="confirm-password">Confirm Password
+                        <input 
+                        type="password"
+                        id="confirm-password"
+                        name="confirm-password"
+                        autocomplete="current-password"
+                        required>
+                        <span></span>
+                    </label>
+                </div>
+
+                <button type="submit">Sign Up</button>
             </form>
         </section>
     </section>
