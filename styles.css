@@ -97,7 +97,8 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;  /* Ensure consistent weight */
 }
 
-/* Set default font for the form */
+/* Set default font properties for the form */
 html {
     font-family: 'manroperegular', Arial, Helvetica, sans-serif;
+    color: white;
 }
