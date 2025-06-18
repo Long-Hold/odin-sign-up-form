@@ -19,6 +19,7 @@
 :root {
   --debug-border: 1px solid red;
   --universal-container-width: 85ch;
+  --odin-blue: rgba(16, 24, 40, 0.783);
 }
 
 /* Box sizing rules */
@@ -178,7 +179,7 @@ form {
   justify-content: space-evenly;
 
   height: 100%;
-  max-width: var(--universal-container-width);
+  background-color: var(--odin-blue);
 
   border: var(--debug-border);
 }
