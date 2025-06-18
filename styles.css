@@ -170,3 +170,14 @@ body {
   border: var(--debug-border);
 }
 
+/* General form styling */
+form {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+
+  height: 100%;
+  max-width: 85ch;
+
+  border: var(--debug-border);
+}
