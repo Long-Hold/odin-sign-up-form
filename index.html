@@ -32,7 +32,6 @@
         <!-- span elements will by stylized to signify a required field -->
         <section class="form-fields">
             <h1>Take the leap!</h1>
-
             <form action="/index.html" method="POST">
                 <div class="input-container">
                     <label for="first-name">First Name
@@ -46,12 +45,13 @@
                     </label>
 
                     <!-- Last Name input is not required as not everyone has a last name -->
-                    <label for="last-name" class="optional">Last Name
+                    <label for="last-name">Last Name
                         <input 
                         type="text" 
                         id="last-name" 
                         name="last-name"
                         autocomplete="family-name">
+                        <span></span>
                     </label>
 
                     <label for="email">Email
@@ -70,6 +70,7 @@
                         id="phone-number"
                         name="phone-number"
                         autocomplete="tel">
+                        <span></span>
                     </label>
 
                     <label for="password">Password
