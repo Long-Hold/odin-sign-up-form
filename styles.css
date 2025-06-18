@@ -139,5 +139,19 @@ body {
   flex: 1;
   justify-content: space-evenly;
 
-  background-color: rgba(137, 11, 124, 0.267);
+  padding: 15vh 0;
+
+  background-color: rgba(33, 2, 2, 0.39);
+  border: 1px solid yellow;
+}
+
+.form-description {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+
+  height: 30%;
+  max-width: 85ch;
+
+  border: 1px solid red;
 }
