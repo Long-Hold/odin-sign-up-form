@@ -182,3 +182,10 @@ form {
 
   border: var(--debug-border);
 }
+
+/* Use column flex box to stack labels ontop of inputs */
+label, input {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+}
