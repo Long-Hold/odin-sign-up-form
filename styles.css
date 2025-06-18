@@ -16,6 +16,9 @@
 
 }
 
+:root {
+  --debug-border: 1px solid red;
+}
 
 /* Box sizing rules */
 *,
@@ -142,7 +145,7 @@ body {
   padding: 15vh 0;
 
   background-color: rgba(33, 2, 2, 0.39);
-  border: 1px solid yellow;
+  border: var(--debug-border);
 }
 
 .form-description {
@@ -153,7 +156,7 @@ body {
   height: 30%;
   max-width: 85ch;
 
-  border: 1px solid red;
+  border: var(--debug-border);
 }
 
 /* Container that holds the form elements */
@@ -164,5 +167,6 @@ body {
 
   height: 50%;
 
-  border: 1px solid red;
+  border: var(--debug-border);
 }
+
