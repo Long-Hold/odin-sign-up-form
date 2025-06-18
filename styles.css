@@ -138,10 +138,12 @@ body {
   flex-flow: column wrap;
   flex: 1;
   justify-content: space-evenly;
-  padding: 2rem;
-  border: 1px solid red;
+
+  background-color: rgba(137, 11, 124, 0.267);
 }
 
-.form-section > section {
-  width: 80%;
+.form-section .form-fields {
+  color: black;
+  background-color: white;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.735);
 }
