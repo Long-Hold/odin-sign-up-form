@@ -18,6 +18,7 @@
 
 :root {
   --debug-border: 1px solid red;
+  --universal-container-width: 85ch;
 }
 
 /* Box sizing rules */
@@ -154,7 +155,7 @@ body {
   align-items: center;
 
   height: 30%;
-  max-width: 85ch;
+  max-width: var(--universal-container-width);
 
   border: var(--debug-border);
 }
@@ -177,7 +178,7 @@ form {
   justify-content: space-evenly;
 
   height: 100%;
-  max-width: 85ch;
+  max-width: var(--universal-container-width);
 
   border: var(--debug-border);
 }
