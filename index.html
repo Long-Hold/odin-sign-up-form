@@ -32,77 +32,76 @@
         <!-- span elements will by stylized to signify a required field -->
         <section class="form-fields">
             <form id="signup-form" action="/index.html" method="POST">
-                <h1>Take the leap!</h1>
-
                 <div>
-                    <label for="first-name">First Name
-                        <input
-                        type="text"
-                        id="first-name"
-                        name="first-name"
-                        autocomplete="given-name"
-                        required>
-                        <span></span>
-                    </label>
+                    <h1>Take the leap!</h1>
                 </div>
 
-                <!-- Last Name input is not required as not everyone has a last name -->
-                <div>
-                    <label for="last-name">Last Name
-                        <input
-                        type="text"
-                        id="last-name"
-                        name="last-name"
-                        autocomplete="family-name">
-                        <span></span>
-                    </label>
-                </div>
-
-                <div>
-                    <label for="email">Email
-                        <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        autocomplete="email"
-                        required>
-                        <span></span>
-                    </label>
-                </div>
-
-                <div>
-                    <label for="phone-number">Phone Number
-                        <input
-                        type="tel"
-                        id="phone-number"
-                        name="phone-number"
-                        autocomplete="tel">
-                        <span></span>
-                    </label>
-                </div>
-
-                <div>
-                    <label for="password">Password
-                        <input
-                        type="password"
-                        id="password"
-                        name="password"
-                        autocomplete="new-password"
-                        required>
-                        <span></span>
-                    </label>
-                </div>
-
-                <div>
-                    <label for="confirm-password">Confirm Password
-                        <input
-                        type="password"
-                        id="confirm-password"
-                        name="confirm-password"
-                        autocomplete="current-password"
-                        required>
-                        <span></span>
-                    </label>
+                <div class="form-fields-container">
+                    <div>
+                        <label for="first-name">First Name
+                            <input
+                            type="text"
+                            id="first-name"
+                            name="first-name"
+                            autocomplete="given-name"
+                            required>
+                            <span></span>
+                        </label>
+                    </div>
+                    <!-- Last Name input is not required as not everyone has a last name -->
+                    <div>
+                        <label for="last-name">Last Name
+                            <input
+                            type="text"
+                            id="last-name"
+                            name="last-name"
+                            autocomplete="family-name">
+                            <span></span>
+                        </label>
+                    </div>
+                    <div>
+                        <label for="email">Email
+                            <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            autocomplete="email"
+                            required>
+                            <span></span>
+                        </label>
+                    </div>
+                    <div>
+                        <label for="phone-number">Phone Number
+                            <input
+                            type="tel"
+                            id="phone-number"
+                            name="phone-number"
+                            autocomplete="tel">
+                            <span></span>
+                        </label>
+                    </div>
+                    <div>
+                        <label for="password">Password
+                            <input
+                            type="password"
+                            id="password"
+                            name="password"
+                            autocomplete="new-password"
+                            required>
+                            <span></span>
+                        </label>
+                    </div>
+                    <div>
+                        <label for="confirm-password">Confirm Password
+                            <input
+                            type="password"
+                            id="confirm-password"
+                            name="confirm-password"
+                            autocomplete="current-password"
+                            required>
+                            <span></span>
+                        </label>
+                    </div>
                 </div>
             </form>
             <button type="submit" form="signup-form">Sign Up</button>
