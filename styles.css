@@ -179,7 +179,10 @@ form {
   justify-content: space-evenly;
 
   height: 100%;
+  padding: 1.5rem;
+
   background-color: var(--odin-blue);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.744);
 
   border: var(--debug-border);
 }
