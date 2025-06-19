@@ -159,6 +159,7 @@ body {
   max-width: var(--universal-container-width);
 
   border: var(--debug-border);
+  padding: 0 1.5rem;
 }
 
 /* Container that holds the form elements */
