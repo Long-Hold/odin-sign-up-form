@@ -81,11 +81,13 @@ picture {
   display: block;
 }
 
-/* Inherit fonts for inputs and buttons */
+/* Inherit fonts for inputs and buttons 
+  Adds universal sizing */
 input, button,
 textarea, select {
   font-family: inherit;
   font-size: inherit;
+  width: 150px;
 }
 
 /* Make sure textareas without a rows attribute are not tiny */
@@ -213,3 +215,5 @@ label {
   align-items: flex-start;
   row-gap: 1rem;
 }
+
+/* Custom input element styling */
