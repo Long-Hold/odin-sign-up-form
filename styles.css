@@ -200,7 +200,7 @@ form .form-fields-container {
 
   padding: 1rem 0;
   height: 100%;
-  width: var(--universal-container-width);
+  width: 45%;
 
   border: var(--debug-border);
 }
