@@ -207,6 +207,11 @@ form .form-fields-container {
   border: var(--debug-border);
 }
 
+.form-fields-container > div {
+  display: flex;
+  flex-flow: row wrap;
+}
+
 /* Use column flex box to stack labels ontop of inputs */
 label {
   display: flex;
@@ -217,7 +222,7 @@ label {
 
 /* Custom input element styling */
 
-/* RApply normalizing CSS to inputs */
+/* Apply normalizing CSS to inputs */
 input {
   display: block;
   font-family: inherit;
