@@ -203,8 +203,7 @@ form .form-fields-container {
 
   padding: 1rem 0;
   height: 100%;
-  width: 45%;
-
+  width: 60%;
   border: var(--debug-border);
 }
 
@@ -225,7 +224,7 @@ input {
   font-size: 100%;
   margin: 0;
   box-sizing: border-box;
-  width: 100%;
+  width: 150%;
   padding: 5px;
   height: 30px;
 
