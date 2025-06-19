@@ -207,11 +207,6 @@ form .form-fields-container {
   border: var(--debug-border);
 }
 
-.form-fields-container > div {
-  display: flex;
-  flex-flow: row wrap;
-}
-
 /* Use column flex box to stack labels ontop of inputs */
 label {
   display: flex;
@@ -235,4 +230,21 @@ input {
 
   box-shadow: inset 1px 1px 3px #ccc;
   border-radius: 5px;
+}
+
+input + span {
+  position: relative;
+}
+
+input:required + span::after {
+  font-size: 0.8rem;
+
+  position: absolute;
+  content: "required";
+  top: -78px;
+  left: 218px;
+
+  padding: 5px 10px;
+  border: 1px solid black;
+  background-color: rgba(255, 0, 0, 0.717);
 }
