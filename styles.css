@@ -145,6 +145,7 @@ body {
   justify-content: space-evenly;
 
   padding: 15vh 0;
+  height: 100vh;
 
   background-color: rgba(33, 2, 2, 0.39);
   border: var(--debug-border);
