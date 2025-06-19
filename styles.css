@@ -196,7 +196,7 @@ form .form-fields-container {
   display: flex;
   flex-flow: column wrap;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: space-between;
 
   padding: 1rem 0;
   height: 100%;
@@ -206,7 +206,7 @@ form .form-fields-container {
 }
 
 /* Use column flex box to stack labels ontop of inputs */
-label, input {
+label {
   display: flex;
   flex-flow: column nowrap;
   align-items: flex-start;
