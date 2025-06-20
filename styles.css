@@ -293,3 +293,19 @@ input:invalid {
 input:focus  {
   background-color: #ccc;
 }
+
+/* Button styling */
+button {
+  padding: .5em 2em;
+  margin: 1.5rem;
+  width: 20%;
+
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.2em;
+
+  border-radius: 10px;
+  border: none;
+
+  background-color: rgb(230, 231, 224);
+}
