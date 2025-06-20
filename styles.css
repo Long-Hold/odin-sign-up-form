@@ -303,9 +303,25 @@ button {
   font-size: 1.2em;
 
   border-radius: 10px;
-  border: none;
+  border: 2px solid white;
 
-  background-color: rgb(230, 231, 224);
+  background-color: #212221;
+  color: white;
+
+  transition: 0.4s;
+}
+
+button:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+
+  background-color: rgb(71, 71, 69);
+  border: 2px solid rgb(29, 123, 29);
+}
+
+button:active {
+  background-color: #336c33;
+  transition: 0.1s;
 }
 
 .login-container {
