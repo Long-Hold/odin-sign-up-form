@@ -256,3 +256,28 @@ label:has(> input:required)::after {
   content: "required";
   background-color: rgba(255, 0, 0, 0.717);
 }
+
+input + span {
+  position: relative;
+}
+
+input + span::before {
+  position: absolute;
+
+  left: 270px;
+  top: -38px;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
+
+input:required:invalid + span::before {
+  content: "✖";
+  color: red;
+}
+
+input:valid + span::before {
+  content: "✓";
+  color: green;
+}
