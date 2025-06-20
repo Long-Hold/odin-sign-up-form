@@ -281,3 +281,11 @@ input:valid + span::before {
   content: "✓";
   color: green;
 }
+
+input:valid {
+  border: 2px solid green;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
