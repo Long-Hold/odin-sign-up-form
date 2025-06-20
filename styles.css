@@ -172,8 +172,6 @@ body {
   justify-content: space-evenly;
 
   height: 50%;
-
-  border: var(--debug-border);
 }
 
 /* General form styling */
@@ -308,4 +306,14 @@ button {
   border: none;
 
   background-color: rgb(230, 231, 224);
+}
+
+.login-container {
+  position: relative;
+
+  & > p {
+    position: absolute;
+    top: 50px;
+    margin: 1.5rem;
+  }
 }
